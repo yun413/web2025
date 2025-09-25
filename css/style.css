@@ -89,7 +89,8 @@ the layout
 	margin: 0 auto;
 	padding: 10px;
 	width: 800px;
-	background: #fff;
+    height: 660px;
+	background: #ffffff;
 	border: 10px solid #5c0505;
 }
 
@@ -153,7 +154,7 @@ the layout
 
 #footer {
 	clear: both;
-	background: #bababa;
+	background: #cecece;
 	padding: 10px;
 	border-top: 2px solid #ddd;
 	text-align: center;
