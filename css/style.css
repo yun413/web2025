@@ -89,7 +89,7 @@ the layout
 	margin: 0 auto;
 	padding: 10px;
 	width: 800px;
-    height: 660px;
+    height: 687px;/*增加景高度*/
 	background: #ffffff;
 	border: 10px solid #5c0505;
 }
@@ -98,13 +98,21 @@ the layout
 	border: 10px solid #ccc;
 }
 
-#header h1 {
+/*#header h1 {
 	font-size: 2em;
 	margin: 10px 0 0 0;
 	padding: 10px;
 	text-align: center;
 	background: url('images/tagline_bg.gif') repeat-x;
-}
+}沒顯現*/
+
+#titleBar h1 {
+	margin: 10px 0 0 0;
+	font-size: 1.7em;
+	padding: 10px;
+	text-align: center;
+	background: #cfc3a9;
+}/*新增加*/
 
 #content, #sidebar {
 	width: 360px;
