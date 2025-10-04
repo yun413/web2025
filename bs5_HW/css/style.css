@@ -5,7 +5,11 @@ body {
 
 }
 
+#thick-border {
+    border: 12px solid #79e5f8;
+}
+
 #footer {
-    background: #178520;
+    background: #4ca0c2;
     color: #646464;
 }
