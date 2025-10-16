@@ -1,0 +1,148 @@
+/* ===========================
+   style.css
+   =========================== */
+
+/* ---------------------------
+   全站基礎設定
+   --------------------------- */
+
+/* 設定全站字體與背景樣式 */
+body {
+    /* 背景為深色金屬迷彩感 */
+    background: radial-gradient(circle at center, #1a1a1a 0%, #000000 100%);
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-attachment: fixed;
+}
+
+/* 讓文字平滑呈現 */
+h1, h2, h3, h4, h5 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* ---------------------------
+   頂部橫幅區（鷹頭與標題）
+   --------------------------- */
+
+.hero-section {
+    /* 使用深藍與黑的漸層背景模仿天空感 */
+    background: linear-gradient(to bottom, #1c1e22, #0d0d0d);
+    padding: 60px 20px;
+    position: relative;
+    border-bottom: 2px solid #444;
+}
+
+/* 鷹頭圖像大小與位置 */
+.hero-logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Screaming Eagles 副標題樣式 */
+.screaming-eagles {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #d4af37; /* 金屬金色 */
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
+}
+
+/* ---------------------------
+   導航列區
+   --------------------------- */
+
+/* 導航列背景與字體風格 */
+.navbar {
+    background: linear-gradient(to right, #111, #222);
+    border-bottom: 2px solid #333;
+}
+
+/* 導覽項目 hover 效果 */
+.nav-link {
+    color: #ccc !important;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* 滑過時亮起金屬感 */
+.nav-link:hover {
+    color: #d4af37 !important;
+    text-shadow: 0 0 8px rgba(255, 215, 0, 0.4);
+}
+
+/* ---------------------------
+   主內容區：Medals Archive
+   --------------------------- */
+
+/* 整體區塊風格 */
+main {
+    background: rgba(30, 30, 30, 0.85);
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+/* 勳章圖片樣式 */
+.medal-img {
+    width: 100px;
+    height: auto;
+    border: 2px solid #555;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* 滑過勳章時放大並閃亮 */
+.medal-img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.4);
+}
+
+/* Info 區塊 */
+.info-section {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-left: 4px solid #d4af37;
+    border-radius: 5px;
+}
+
+/* Info 區塊標題 */
+.info-section h4 {
+    color: #d4af37;
+    margin-bottom: 15px;
+}
+
+/* ---------------------------
+   頁尾區（Footer）
+   --------------------------- */
+
+/* 頁尾設計 */
+footer {
+    background: #0d0d0d;
+    border-top: 2px solid #222;
+}
+
+/* 頁尾文字微光效果 */
+footer p {
+    color: #777;
+    font-size: 0.9rem;
+    text-shadow: 0 0 4px rgba(255, 215, 0, 0.2);
+}
+
+/* ---------------------------
+   響應式設計
+   --------------------------- */
+
+/* 手機版 Hero 區塊縮小字體 */
+@media (max-width: 576px) {
+    .hero-section {
+        padding: 40px 10px;
+    }
+
+    .hero-logo {
+        width: 90px;
+    }
+
+    .screaming-eagles {
+        font-size: 1.2rem;
+    }
+}
