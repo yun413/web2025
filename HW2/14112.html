@@ -17,36 +17,65 @@ body {
 .text-center {
     color: white;
 }
+
+h2 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+#eagle {
+    height: auto;
+    padding-top: 250px;
+}
+
+#board-container {
+    padding-top: 80px;
+}
+
+.container-border {
+    padding-top: 120px;
+}
+
+#cow-paper {
+    height: auto;
+    width: 120px;
+   
+}
+
+#badge {
+    height: auto;
+    width: 80px;
+}
 </style>
 
 <body class="hero-section">
        
-<p class="p-5">&amp;</p>
+<p class="p-5" style="visibility:hidden;">&amp;</p>
 
 
         <section id="eagle-container" class="position-relative">
-            <img class="position-absolute start-50 top-0 translate-middle  w-50 mt-5"   src="imgs/eagle.png" alt="eagle" id="eagle">
-        
+            <img class="position-absolute start-50 top-0 translate-middle  w-50 " src="imgs/eagle.png" alt="eagle" id="eagle">
+         </section>
+
         <div class="container">
             <div class="row custom-row px-5 w-75 position-absolute start-50 top-4 translate-middle-x">
             
-            <article class="text-center col-12 col-sm-6 ps-5">00001</article>
-            <article class="text-center col-12 col-sm-6 ps-5">00002</article>
-            <article class="text-center col-12 col-sm-6 ps-5">00003</article>
-            <article class="text-center col-12 col-sm-6 ps-5">00004</article>
-            <article class="text-center col-12 col-sm-6 ps-5">00006</article>
-            
-
-
-                <section class="text-center col-12">Medals Archive</section>   
-            <article class="text-center col-12 col-sm-4 ps-5">444444</article>
-            <article class="text-center col-12 col-sm-4">2222222</article>
-            <article class="text-center col-12 col-sm-4 pe-5">3333333</article>
+                <article class="text-center fw-bold col-12 col-sm-6 ps-0">HOME</article>
+                    <article class="text-center fw-bold col-12 col-sm-6 pe-0">HOME2</article>
+                <article class="text-center fw-bold col-12 col-sm-6 ps-1">JOIN US</article>
+                    <article class="text-center fw-bold col-12 col-sm-6 pe-1">JOIN US2</article>
+                <article class="text-center fw-bold col-12 col-sm-6 ps-3">HISTORY</article>
+                    <article class="text-center fw-bold col-12 col-sm-6 pe-3">HISTORY2</article>
+                <article class="text-center fw-bold col-12 col-sm-6 ps-5">GALLERY</article>
+                    <article class="text-center fw-bold col-12 col-sm-6 pe-5">GALLERY2</article>
+           
             </div>
         </div>
+       
         
-        
-        </section>
+        <!-- 看板 -->
             <section id="board-container" class="position-relative">
             <img src="imgs/框框.png" alt="看板" class="img-fluid w-50 mx-auto d-block mt-4 position-absolute start-50 top-1 translate-middle-x"><!--class="img-fluid w-75 mx-auto d-block mb-4"-->
             </section>
@@ -54,37 +83,19 @@ body {
         
 
 
-
-        <!-- <div class="container">
+        <div class="container container-border">
             <div class="row custom-row px-5 w-75 position-absolute start-50 top-3 translate-middle-x">
-            <section class="text-center col-12">Medals Archive</section>   
-            <article class="text-center col-12 col-sm-4 ps-5">1111111</article>
-            <article class="text-center col-12 col-sm-4">2222222</article>
-            <article class="text-center col-12 col-sm-4 pe-5">3333333</article>
+            <h2 class="col-12 ps-5">Medals Archive</h2>   
+            <article class="text-center col-12 col-sm-4 ps-5"><img src="imgs/cow leather paper.png" alt="cow leather paper" id="cow-paper"></article>
+            <article class="text-center col-12 col-sm-4 ">2222222</article>
+            <article class="text-center col-12 col-sm-4 "><img src="imgs/badge.PNG" alt="徽章" id="badge"></article>
             </div>
-        </div> -->
+        </div>
 
         
     
 
-    <!-- 導航列
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand text-black" href="#">⚔️ 101st Squadron ⚔️</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">HISTORY</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">MEDALS</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">GALLERY</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav> -->
+
 
 
 </body>
