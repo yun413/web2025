@@ -1,0 +1,20 @@
+/* hero-section 改為 */
+.hero-section {
+    position: relative;  /* ✅ 必須 */
+    overflow: hidden;
+}
+
+/* eagle 圖片改為 */
+.hero-section img {
+    position: absolute;  /* ✅ z-index 需要這個 */
+    z-index: 0;          /* 放在背後 */
+    top: 0;
+    left: 0;
+}
+
+/* h1 標題改為 */
+h1 {
+    position: relative;  /* ✅ z-index 需要這個 */
+    z-index: 1;          /* 放在前面 */
+}
+
