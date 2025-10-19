@@ -10,38 +10,80 @@
 </head>
 
 <style>
-body {
-    background-color: gray;
+h2 {
+    color: rgb(55, 54, 35);
+    
+    text-shadow: 1px 1px 2px rgb(10, 47, 24);
+    font-weight: bold;
+    text-align: center;
+    
 }
 
 .text-center {
     color: white;
 }
 
-h2 {
-    color: white;
-    font-weight: bold;
-    text-align: center;
+#border_black {
+    height: 800px;
     
+    background-image: url(imgs/border_black.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+    z-index: -3;
+}
+#grad1 {
+    height: 400px;
+    background-color: gray;
+    background-image: url(imgs/sky.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-image: linear-gradient( to bottom, rgb(104, 152, 200), rgb(75, 87, 40)); */
+    position: relative;
+    z-index: -2;
+}
+
+#left-grad1 {
+    height: 400px;
+    background: linear-gradient( to right, rgba(0, 0, 0), rgba(255, 255, 255, 0));
+    position: relative;
+    z-index: -1;
+}
+
+#right-grad1 {
+    height: 400px;
+    /* width: 20%; */
+    background: linear-gradient( to left, rgba(0, 0, 0), rgba(255, 255, 255, 0.1));
+    position:relative;
+    z-index: -1;
 }
 
 #eagle {
+    position:absolute;
+    z-index: -1;
     height: auto;
     padding-top: 250px;
 }
 
-#board-container {
+#board {
     padding-top: 80px;
+    
 }
 
-.container-border {
-    padding-top: 120px;
+#container-border {
+    padding-top: 150px;
+    border: 3px solid chartreuse;
+}
+
+#container-Border {
+    border: 2px solid black;
 }
 
 #cow-paper {
     height: auto;
     width: 120px;
-   
+    
 }
 
 #badge {
@@ -50,7 +92,12 @@ h2 {
 }
 </style>
 
-<body class="hero-section">
+<body>
+<div id="border_black">
+<div id="grad1">
+    <div id="left-grad1">
+        <div id="right-grad1">
+    
        
 <p class="p-5" style="visibility:hidden;">&amp;</p>
 
@@ -73,30 +120,53 @@ h2 {
            
             </div>
         </div>
+
+        <!-- 漢堡選單 -->
+            <!-- <nav style="position: absolute; z-index: 5; " class="start-50 text-light ">1111</nav> -->
        
         
         <!-- 看板 -->
-            <section id="board-container" class="position-relative">
-            <img src="imgs/框框.png" alt="看板" class="img-fluid w-50 mx-auto d-block mt-4 position-absolute start-50 top-1 translate-middle-x"><!--class="img-fluid w-75 mx-auto d-block mb-4"-->
-            </section>
-                 
         
+            <section id="board" class="position-relative">
+            <img src="imgs/框框.png" alt="看板" class="img-fluid w-50  d-block mt-4 position-absolute start-50 top-1 translate-middle-x"><!--class="img-fluid w-75 mx-auto d-block mb-4"-->
+            </section>
 
+            <div class="container " id="container-border">
+                <div class="row custom-row px-5 w-50 position-relative start-50  translate-middle-x">
+                <h2 class="col-12 ps-5">Medals Archive</h2>   
+                <article class="text-center col-12 col-sm-4 ps-3"><img src="imgs/cow leather paper.png" alt="cow leather paper" id="cow-paper"></article>
+                <article class="text-center col-12 col-sm-4 ">
+                    <div class="container" id="flag">
+                        <div class="row">
+                            <section class="col-12 col-sm-4">■</section>
+                            <section class="col-12 col-sm-4">■</section>
+                            <section class="col-12 col-sm-4">■</section>
 
-        <div class="container container-border">
-            <div class="row custom-row px-5 w-75 position-absolute start-50 top-3 translate-middle-x">
-            <h2 class="col-12 ps-5">Medals Archive</h2>   
-            <article class="text-center col-12 col-sm-4 ps-5"><img src="imgs/cow leather paper.png" alt="cow leather paper" id="cow-paper"></article>
-            <article class="text-center col-12 col-sm-4 ">2222222</article>
-            <article class="text-center col-12 col-sm-4 "><img src="imgs/badge.PNG" alt="徽章" id="badge"></article>
+                            <section class="col-12 col-sm-4">■</section>
+                            <section class="col-12 col-sm-4">■</section>
+                            <section class="col-12 col-sm-4">■</section>
+
+                            <section class="col-12 col-sm-4">■</section>
+                            <section class="col-12 col-sm-4">■</section>
+                            <section class="col-12 col-sm-4">■</section>
+
+                        </div>
+                    </div>
+                </article>
+                <article class="text-center col-12 col-sm-4 ps-5"><img src="imgs/badge.PNG" alt="徽章" id="badge"></article>
+                </div>
             </div>
-        </div>
+
+       
+
+
 
         
     
 
-
-
-
+        </div>
+    </div>
+</div>
+</div>
 </body>
 </html>
