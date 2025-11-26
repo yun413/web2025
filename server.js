@@ -2,14 +2,14 @@ var express = require("express");
 var server = express();
 var bodyParser = require("body-parser");
 
-server.use(express.static(__dirname+"/Public")); 
+server.use(express.static(__dirname+"/Public")); //"/"後面為文件夾名稱
 server.use(bodyParser.urlencoded());
 
 var DB = require("nedb-promises");
-var ServiceDB = DB.create(__dirname+"/Service.db");
+var ServiceDB = DB.create(__dirname+"/Service.db");//"/"後面為文件夾名稱
 
 server.get("/", (req,res)=>{
-    res.send("Hello World!");
+    res.send("Hello World!");//為8080port的首頁內容
 })
 
 server.get("/services", (req,res)=>{
