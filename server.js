@@ -13,7 +13,7 @@ var DB = require("nedb-promises");
 var ServiceDB = DB.create(__dirname+"/Service.db");//建立ServiceDB資料庫
 var PorfolioDB = DB.create(__dirname+"/Porfolio.db");
 var ContactDB = DB.create(__dirname+"/Contact.db");
-
+var AboutDB = DB.create(__dirname+"/About.db");
 
 
 
