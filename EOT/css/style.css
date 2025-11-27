@@ -1,3 +1,23 @@
 header {
-    border: 10px solid rgb(3, 3, 40);
+    background-color: rgb(3, 3, 40);
+}
+
+footer {
+    background-color: rgb(3, 3, 40);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+#big-title {
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#logo {
+    height: 50px;
 }
