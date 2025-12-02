@@ -2,6 +2,8 @@ header {
     background-color: rgb(3, 3, 40);
     color: white;
     font-weight: bold;
+    ;
+
 }
 
 footer {
@@ -21,5 +23,10 @@ footer {
 }
 
 #logo {
+    padding-left: 20px;
     height: 50px;
+}
+
+#nav-bar{
+
 }
