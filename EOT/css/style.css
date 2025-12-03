@@ -2,7 +2,7 @@ header {
     background-color: rgb(3, 3, 40);
     color: white;
     font-weight: bold;
-    ;
+    position: fixed; /*1203增加*/
 
 }
 
@@ -12,6 +12,7 @@ footer {
     font-weight: bold;
     text-align: center;
     padding: 20px;
+    position: fixed; /*1203增加*/
 }
 
 #big-title {

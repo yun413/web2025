@@ -19,7 +19,7 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^5.1.0",
+    "express": "^5.2.1",
     "express-fileupload": "^1.5.2",
     "nedb-promises": "^6.2.3"
   }
