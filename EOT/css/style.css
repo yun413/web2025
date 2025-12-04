@@ -6,6 +6,11 @@ header {
 
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 footer {
     background-color: rgb(3, 3, 40);
     color: white;
