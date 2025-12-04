@@ -1,8 +1,10 @@
 header {
     background-color: rgb(3, 3, 40);
     color: white;
+    width: 100%;
     font-weight: bold;
-    /* position: fixed; 1203增加 */
+    position: fixed; 
+    top: 0;
 
 }
 
@@ -20,10 +22,12 @@ a:hover {
 footer {
     background-color: rgb(3, 3, 40);
     color: white;
+    width: 100%;
     font-weight: bold;
     text-align: center;
     padding: 20px;
-    /* position: fixed; 變短了 */
+    position: fixed;
+    bottom: 0;
 }
 
 #big-title {
