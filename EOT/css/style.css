@@ -30,12 +30,20 @@ footer {
     bottom: 0;
 }
 
+#bg-pic {
+    position: relative;
+    z-index: -1;
+}
+
 #big-title {
-    font-size: 60px;
-    font-weight: bold;
+    position: absolute;
     color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 100px;
     text-align: center;
-    margin-top: 20px;
+    top: 50%;
+    left: 30%;
 }
 
 #logo {
@@ -43,6 +51,3 @@ footer {
     height: 50px;
 }
 
-#nav-bar{
-
-}
