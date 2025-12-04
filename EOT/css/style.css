@@ -11,6 +11,12 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: rgb(255, 210, 87);
+    text-decoration: none;
+    font-size: large;
+}
+
 footer {
     background-color: rgb(3, 3, 40);
     color: white;
