@@ -35,7 +35,7 @@ footer {
     z-index: -1;
 }
 
-#big-title {
+/* #big-title {
     position: absolute;
     color: white;
     font-family: 'Times New Roman', Times, serif;
@@ -44,7 +44,7 @@ footer {
     text-align: center;
     top: 50%;
     left: 30%;
-}
+} */
 
 #logo {
     padding-left: 20px;
