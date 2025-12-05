@@ -51,3 +51,30 @@ footer {
     height: 50px;
 }
 
+/* 在寬 >=1100px 時讓 collapse 預設展開，並隱藏 toggler */
+@media (min-width: 1100px) {
+  .navbar .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+  }
+  .navbar .navbar-collapse .navbar-nav {
+    flex-direction: row;
+  }
+  .navbar .navbar-toggler {
+    display: none !important;
+  }
+}
+
+/* 在寬 <1100px 時使用 bootstrap 預設的 collapse（漢堡出現） */
+/* 可微調 link 顏色/間距 */
+.navbar .nav-link {
+  color: #fff;
+  padding: .5rem 1rem;
+}
+.navbar .nav-link:hover {
+  color: #ffd08a;
+}
+#logo {
+  max-height: 48px;
+}
+

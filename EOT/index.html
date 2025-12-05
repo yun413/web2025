@@ -12,7 +12,29 @@
 </head>
 
 <header>
-    <div id="border_black">
+    <nav class="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="imgs/logo.png" alt="logo" id="logo" style="height:40px;">
+          <span class="ms-2 text-white">Mai Yoneyama</span>
+        </a>
+    
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+          aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto align-items-center">
+            <li class="nav-item"><a class="nav-link" href="intro.html">INTRO</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">PROTOFO</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">ALBUM</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">SHOP</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- <div id="border_black">
         <div class="row" id="nav-bar">
             <section class="col-12 col-sm-7 p-2"><img src="imgs/logo.png" alt="logo" id="logo"></section>
             <section class="col-12 col-sm-1 p-3"><a href="intro.html">INTRO</a></section>
@@ -20,19 +42,24 @@
             <section class="col-12 col-sm-1 pt-3"><a href="http">ALBUM</a></section>
             <section class="col-12 col-sm-1 pt-3"><a href="http">SHOP</a></section>
         </div>
-    </div>
+    </div> -->
 </header>
 
 <body>
     <!--封面底圖-->
     <div>
     <h1 id="big-title"><img src="imgs/logo.png" alt="logo" id="big-logo"><br>Mai Yoneyama</h1>
-        <!-- <img id="bg-pic" src="imgs/EYE-noel.jpg" alt="封面底圖" width="100%"> -->
-        <img id="bg-pic" src="imgs/EYE-noel.jpg" alt="封面底圖" style="width: 100%;">
-    </picture>
+        <!-- <img id="bg-pic" src="imgs/EYE-noel.jpg" alt="封面底圖" style="width: 100%;"> -->
     </div>
+<picture>
+    <source media="(max-width: 768px)" srcset="imgs/EYE'25.jpg" style="height: 100%">
+    <source media="(max-width: 1100px)" srcset="imgs/無題1.jpg" style="height: auto">
+
+    <img src="imgs/EYE-noel.jpg" alt="封面底圖" style="width: 100%;">
+</picture>
 </body>
 <footer>© Mai Yoneyama / BYMAY</footer>
 </html>
 
-<!-- 1450*945圖片就要換 -->
+<!-- 1100*748圖片就要換 / navbar就要變可收起 -->
+<!-- 1100*748圖片就要換 -->
