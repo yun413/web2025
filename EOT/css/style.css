@@ -88,7 +88,8 @@ footer {
 
 /* 或更精確地針對該圖片 */
 img[alt="米山舞"] {
-    width: 300px !important;
+    width: 500px !important;
     height: auto;
     object-fit: contain;
 }
+
