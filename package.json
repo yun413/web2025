@@ -21,6 +21,7 @@
   "dependencies": {
     "express": "^5.2.1",
     "express-fileupload": "^1.5.2",
+    "gsap": "^3.13.0",
     "nedb-promises": "^6.2.3"
   }
 }
