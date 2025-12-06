@@ -78,3 +78,17 @@ footer {
   max-height: 48px;
 }
 
+/* intro css */
+/* 固定圖片大小，不隨視窗縮放 */
+.col-4 img {
+    width: 500px !important;  /* 改成你想要的固定寬度 */
+    height: auto;
+    object-fit: cover;
+}
+
+/* 或更精確地針對該圖片 */
+img[alt="米山舞"] {
+    width: 300px !important;
+    height: auto;
+    object-fit: contain;
+}
